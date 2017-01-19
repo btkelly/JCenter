@@ -41,8 +41,8 @@ afterEvaluate {
 
 ext {
     // command-line deployment
-    bintrayUserParameterName = 'bintrayUser'
-    bintrayKeyParameterName = 'bintrayKey'
+    bintrayUserParameterName = 'user'
+    bintrayKeyParameterName = 'key'
 
     // CI deployment
     bintrayUserEnvVarName = 'BINTRAY_USER'
